@@ -1,0 +1,29 @@
+{
+  "instance": {
+    "vcpu": 2,
+    "dataset_rows": 284807,
+    "fraud_rate_pct": 0.1727
+  },
+  "load_time_sec": 0.965,
+  "train_time_sec": 9.962,
+  "best_iteration": 269,
+  "auc_roc": 0.978289,
+  "accuracy": 0.999508,
+  "f1_score": 0.846154,
+  "precision": 0.916667,
+  "recall": 0.785714,
+  "confusion_matrix": {
+    "tn": 56857,
+    "fp": 7,
+    "fn": 21,
+    "tp": 77
+  },
+  "inference_latency_1row_ms": {
+    "mean": 0.844,
+    "p95": 0.898
+  },
+  "inference_throughput_1000rows": {
+    "batch_time_sec": 0.0056,
+    "rows_per_sec": 178422.9
+  }
+}
